@@ -1,5 +1,3 @@
-Sub WeightedNumber()
-
 '====Columns to keep====
 'Report Number
 'Date Reported
@@ -21,9 +19,9 @@ Sub WeightedNumber()
 'Vehicle Theft - 1
 'Shoplifting -1
 'Fraud -1
+'================
 
-
-'========================
+Sub WeightedNumber()
 
 Dim currentColumn As Integer
 Dim columnHeading As String
