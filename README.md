@@ -1,9 +1,30 @@
 # VisualBasic
 This an an example of how to use Visual Basic in Excel to take specfic strings and extract their weighted value.
-This example will remove columns that are not needed, and add a column for the wighted numbers to populate based on a VLOOKUP reference table.
+This example will remove columns that are not needed, and add a column for the weighted numbers to populate based on a VLOOKUP reference table.
 
-# Below shows the crimes and their weighed numbers 
-![Total Employees](https://github.com/kbvss/VisualBasic/blob/main/CategoryAndWeight.png?raw=true)
+# Below shows the crimes and their weighted numbers 
+        '====Columns to keep====
+        'Report Number
+        'Date Reported
+        'Crime
+        'location
+
+        '====Column to create====
+        'Weight
+        'This is for the weight scale
+
+        'Crime List
+        'Murder -4
+        'Self Defense - 4
+        'Assault - 3
+        'Robbery person - 3
+        'Business Robbery - 2
+        'Trespassing -2
+        'Theft - 1
+        'Vehicle Theft - 1
+        'Shoplifting -1
+        'Fraud -1
+
 
 # This is the data I started out with
 ![Total Employees](https://github.com/kbvss/VisualBasic/blob/main/Data.PNG?raw=true)
